@@ -1,0 +1,45 @@
+<!-- <header>
+  <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="navbar-brand align-item-center d-flex">
+      <i style="font-size: 40px;" class="fas fa-gift">&nbsp;</i>
+      <strong style="font-size: 30px;">GiftShop</strong>
+      <div class="form-group">
+        <input type="text" class="form-control" name="" id="" placeholder="search products">
+      </div>
+    </div>
+    <button class="btn btn-primary">
+      <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+      <div style="font-size: 10px;" class="badge bg-danger">5</div>
+    </button>
+  </div>
+</header> -->
+<header class="p-3 mb-3 border-bottom">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+        <i style="font-size: 40px;" class="fas fa-gift">&nbsp;</i>
+        <strong style="font-size: 30px;">GiftShop</strong>
+      </a>
+
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-dark">All products</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Sports</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Beauty</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Toys</a></li>
+      </ul>
+
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+        <input type="search" class="form-control" placeholder="Search product..." aria-label="Search">
+      </form>
+
+      <div class="col-md-3 text-end">
+        <button routerLink="login" type="button" class="btn btn-outline-primary me-2">Login</button>
+        <button routerLink="register" type="button" class="btn btn-primary">Sign-up</button>
+        <button routerLink="cart" class="btn btn-outline-warning" style="margin-left: 6px;">
+          <i style="font-size: 20px;" class="fas fa-cart-plus"></i>
+          <div style="font-size: 10px;" class="badge bg-danger">{{ totalItem }}</div>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
